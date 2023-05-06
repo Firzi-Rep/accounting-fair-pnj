@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 a {
@@ -19,23 +19,16 @@ body {
   opacity: 1;
 }
 
-.gallery-cell {
-  width: 80vh;
-  height: 60vh;
-  margin-right: 10px;
-  background: #8c8;
-  counter-increment: gallery-cell;
-  position: relative;
+.gallery {
+  width: 100%;
+  height: 100vh;
 }
 
-/* cell number */
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
+.gallery-cell {
+  width: 120vh;
+  height: auto;
+  background: rgb(255, 255, 255);
+  position: relative;
 }
 
 /* Konten Utama */
@@ -45,7 +38,7 @@ body {
   box-sizing: border-box;
   text-align: center;
   justify-content: center;
-  padding: 3rem;
+  padding: 3rem 0;
   width: 100%;
   height: auto;
   background-color: #ffffff00;
@@ -85,11 +78,13 @@ body {
 }
 
 .konten-utama .gallery {
-  margin: 1rem;
+  height: 80vh;
+  margin: 2rem auto 2rem;
 }
 
 .konten-utama .gallery .gallery-cell {
   margin: 5px;
+  height: 80vh;
 }
 
 .konten-utama .gallery .gallery-cell img,
@@ -129,7 +124,7 @@ body {
 }
 
 .konten-1 .isi-konten-1 {
-  width: 50%;
+  max-width: 80vh;
   height: auto;
   border: 1px solid black;
   background-color: rgba(255, 255, 255, 0.6);
@@ -175,7 +170,7 @@ body {
   font-size: 3rem;
   font-weight: bold;
   font-variant: small-caps;
-  margin: 1rem;
+  margin: 3rem 0 5rem;
   color: white;
   text-shadow: 0px 0px 10px black;
 }
@@ -187,23 +182,24 @@ body {
 
 .konten-2 .isi-konten-2 .gallery {
   justify-content: center;
-  margin: 2rem;
   background-color: rgba(0, 0, 0, 0.4);
   border: 2px solid black;
   box-shadow: 0px 0px 10px 5px black;
+  height: 40vh;
+  margin-bottom: 5rem;
 }
 
 .konten-2 .isi-konten-2 .gallery .gallery-cell {
-  margin: 5px;
+  margin-right: 5px;
   width: 40vh;
   height: 40vh;
-  border-radius: 10px;
 }
 
 /* Konten 3 */
 .konten-3 {
   display: flex;
   position: relative;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   height: auto;
@@ -221,15 +217,18 @@ body {
 .konten-3 .isi-konten-3 {
   display: flex;
   justify-content: space-between;
-  height: 60vh;
+  flex-wrap: wrap;
+  margin: auto;
+  height: 100%;
   width: 76vh;
   /* border: 1px solid black; */
   box-sizing: border-box;
 }
 
 .konten-3 .isi-konten-3 .media {
-  display: inline-block;
-  height: 100%;
+  display: block;
+  margin: 1rem auto;
+  height: 60vh;
   width: 37vh;
   background-color: rgba(255, 255, 255, 0.6);
   border: 1px solid black;
@@ -237,6 +236,7 @@ body {
 }
 
 .konten-3 h1 {
+  display: block;
   font-size: 3rem;
   font-weight: bold;
   font-variant: small-caps;
@@ -251,6 +251,7 @@ body {
 .konten-4 {
   display: flex;
   position: relative;
+  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
   height: auto;
@@ -265,6 +266,7 @@ body {
 }
 
 .konten-4 h1 {
+  display: inline-block;
   font-size: 3rem;
   font-weight: bold;
   font-variant: small-caps;
@@ -276,19 +278,21 @@ body {
 .konten-4 .isi-konten-4 {
   display: flex;
   justify-content: space-between;
-  height: 70vh;
+  flex-wrap: wrap;
+  height: auto;
   width: 92vh;
   box-sizing: border-box;
 }
 
 .konten-4 .isi-konten-4 .media {
   display: inline-block;
-  height: 100%;
+  height: 70vh;
   width: 45vh;
   background-color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
   box-sizing: border-box;
   padding: 1rem;
+  margin: 1rem auto;
 }
 
 /* Konten 5 */
@@ -297,7 +301,6 @@ body {
   display: block;
   position: relative;
   box-sizing: border-box;
-  justify-content: center;
   text-align: center;
   width: 100%;
   height: auto;
@@ -321,16 +324,17 @@ body {
 .konten-5 .isi-konten-5 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: auto;
-  height: 50vh;
-  width: 150vh;
-  box-sizing: border-box;
+  height: auto;
+  width: 100%;
 }
 
 .konten-5 .isi-konten-5 .media {
   display: inline-block;
-  height: 100%;
+  height: 50vh;
   width: 48vh;
+  margin: 1rem auto;
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid black;
   font-size: 1.5rem;
