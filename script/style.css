@@ -12,18 +12,11 @@ a {
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: black;
 }
 
-/* corousel */
-/* external css: flickity.css */
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
+.navbar {
+  opacity: 1;
 }
 
 .gallery-cell {
@@ -238,7 +231,7 @@ body {
   display: inline-block;
   height: 100%;
   width: 37vh;
-  background-color: #8c8;
+  background-color: rgba(255, 255, 255, 0.6);
   border: 1px solid black;
   border-radius: 10px;
 }
@@ -292,8 +285,7 @@ body {
   display: inline-block;
   height: 100%;
   width: 45vh;
-  background-color: #8c8;
-  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
   box-sizing: border-box;
   padding: 1rem;
@@ -339,7 +331,7 @@ body {
   display: inline-block;
   height: 100%;
   width: 48vh;
-  background-color: #8c8;
+  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid black;
   font-size: 1.5rem;
   box-sizing: border-box;
@@ -347,32 +339,39 @@ body {
 }
 
 /* Footer */
-footer {
+
+.footer-konten {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  height: 5rem;
+  background-color: #1c2938;
   text-align: center;
-  padding: 1rem 3rem;
-  color: white;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 4rem;
 }
 
-footer .social {
+.social {
+  display: inline;
   padding: 1rem 0;
 }
 
-footer .social a {
+.social a {
   color: rgb(255, 255, 255);
   margin: 1rem;
 }
 
-footer .social a:hover {
-  color: green;
+.social a:hover {
+  color: rgb(176, 179, 0);
 }
 
-footer .credit {
+.credit {
+  display: inline;
   font-size: 0.8rem;
 }
 
-footer .credit a {
+.credit a {
   color: rgb(255, 255, 255);
   font-weight: 700;
 }
