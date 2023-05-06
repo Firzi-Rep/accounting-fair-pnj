@@ -1,0 +1,96 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  height: 6rem;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 1px solid aqua;
+}
+
+.navbar .navbar-logo {
+  font-family: "Alkatra", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  font-style: italic;
+}
+
+.navbar #humberger {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar #humberger a {
+  font-family: "Alkatra", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 5px aqua;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 0 1rem;
+  padding: 0.3rem;
+  transition: 0.2s linear;
+}
+
+.navbar #humberger a:hover {
+  color: aqua;
+  background-color: rgb(20, 20, 20);
+  border-radius: 15%;
+}
+
+/* Menu Hamburger */
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu-toggle input {
+  position: absolute;
+  width: 44px;
+  height: 28px;
+  opacity: 0;
+  left: -8px;
+  top: -4px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+  transition: all 0.5s;
+}
+
+/* Hamburger Menu Animation */
+
+.menu-toggle span:nth-child(2) {
+  transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(3) {
+  transform-origin: 0 0;
+}
+
+.menu-toggle span:last-child {
+  transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+  opacity: 0;
+}
+
+.menu-toggle input:checked ~ span:last-child {
+  transform: rotate(-45deg) translate(-1px, 0);
+}
