@@ -1,45 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="/script/reset.min.css">
-    <link rel="stylesheet" href="/script/style.css">
-    <link rel="stylesheet" href="/script/header-1.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
 
-    <!-- nav start -->
-        <header class="site-header">
-    <div class="wrapper site-header__wrapper">
-        <a href="index.html" class="brand">Accounting Fair 2023</a>
-        <nav class="nav">
-        <button class="nav__toggle" aria-expanded="false" type="button">
-            menu
-        </button>
-        <ul class="nav__wrapper">
-            <li class="nav__item"><a href="index.html">Home</a></li>
-            <li class="nav__item"><a href="#">About Us</a></li>
-            <li class="nav__item"><a href="#">Our Events</a></li>
-        </ul>
+        <!-- Icon -->
+        <script src="https://unpkg.com/feather-icons"></script>
+
+        <!-- Style -->
+        <link rel="stylesheet" href="/script/reset.min.css">
+        <link rel="stylesheet" href="/script/style.css">
+        <link rel="stylesheet" href="/script/header-1.css">
+        <link rel="stylesheet" href="/script/navbar.css">
+        <link rel="stylesheet" href="/script/mediaQueary.css">
+        <link rel="stylesheet"
+            href="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    </head>
+    <body>
+
+        <!-- nav start -->
+        <nav class="navbar">
+            <a href="" class="navbar-logo">Acounting Fair</a>
+
+            <div id="humberger">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Our Events</a>
+            </div>
+
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
-    </div>
-    </header>
-    <!-- nav end -->
+        <!-- nav end -->
 
-    <!-- Flickity HTML init -->
-    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-        <div class="gallery-cell"></div>
-        <div class="gallery-cell"></div>
-        <div class="gallery-cell"></div>
-        <div class="gallery-cell"></div>
-        <div class="gallery-cell"></div>
-    </div>
+        <!-- Flickity HTML init -->
+        <div class="konten-utama">
+            <div class="box"></div>
+            <div class="konten-bg">
+                <div class="gallery js-flickity" data-flickity-options='{
+                    "wrapAround":
+                    true }'>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                </div>
+            </div>
+        </div>
 
-    <script src="/script/header-1.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
-</body>
+        <!-- Konten 1 Working Partner -->
+        <div class="konten-1">
+            <div class="box"></div>
+            <h1>Our Working Partner</h1>
+            <div class="isi-konten-1">
+                <div class="konten-1-logo"></div>
+                <div class="desk-konten-1-logo">Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Consectetur eum porro quo
+                    corporis! Accusamus labore nam ipsum minus illum debitis
+                    ullam, animi eaque, esse nulla aliquid? Repellat eveniet
+                    in,
+                    doloribus officia assumenda at dolorum debitis autem
+                    tempore
+                    eius neque magnam dolorem ad rerum laboriosam. Optio quo
+                    ex,
+                    expedita corrupti autem odit, fuga perferendis
+                    exercitationem, illum dolore quidem. Necessitatibus
+                    ratione
+                    explicabo, ducimus laboriosam magnam ut ex. Optio
+                    veritatis
+                    dignissimos neque! Eligendi accusantium cumque cum?
+                    Nulla
+                    mollitia est, perspiciatis facere libero neque labore
+                    suscipit, dolor rem impedit deleniti sed voluptatibus
+                    reiciendis pariatur voluptatem reprehenderit consectetur
+                    modi unde doloremque, recusandae dolore. Animi,
+                    officiis?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.
+                    Deleniti pariatur quis omnis est ab cupiditate autem
+                    nostrum
+                    molestiae, repudiandae exercitationem quae hic optio
+                    consectetur id incidunt quos adipisci fugit repellendus
+                    a
+                    fuga asperiores eaque et. Earum doloremque magni
+                    voluptatem,
+                    excepturi, nostrum repellat eius nisi vitae cumque
+                    inventore
+                    facilis soluta ex!</div>
+            </div>
+        </div>
+
+        <!-- Konten 2 Events -->
+        <div class="konten-2">
+            <div class="box"></div>
+            <h1>Our Events</h1>
+            <div class="isi-konten-2">
+                <div class="gallery js-flickity" data-flickity-options='{
+                    "wrapAround":
+                    true }'>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Konten 3 Social media -->
+        <div class="konten-3">
+            <div class="box"></div>
+            <div class="isi-konten-3">
+                <div class="media media-1"></div>
+                <div class="media media-2"></div>
+            </div>
+            <h1>Our Social Media</h1>
+        </div>
+
+        <!-- Konten 4 Kontak US -->
+        <div class="konten-4">
+            <div class="box"></div>
+            <h1>Contact Us</h1>
+            <div class="isi-konten-4">
+                <div class="media media-1">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Tempore accusantium quibusdam
+                    doloribus inventore sint nisi deleniti <br> <br> natus
+                    beatae
+                    perspiciatis enim, possimus ratione, consequuntur eius.
+                    Laborum voluptatem nobis sunt, illum, <br><br> in odit, enim
+                    aperiam
+                    deserunt culpa a provident consequatur. Quo optio nostrum
+                    fugiat, voluptates ea <br><br> provident voluptatum
+                    consequuntur
+                    numquam harum quidem?</div>
+                <div class="media media-2">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Incidunt maxime in amet
+                    laborum sequi aperiam iusto ipsam eius <br><br> enim, dicta
+                    corrupti
+                    assumenda illo culpa delectus at animi tempora et tenetur
+                    aliquam? Distinctio aperiam veritatis,<br><br> nam
+                    voluptatum
+                    voluptatibus quae, eum sint, obcaecati nobis dolorum est
+                    natus asperiores earum iure! Quo, tempora!</div>
+            </div>
+        </div>
+
+        <!-- Konten 5 Past Partner -->
+        <div class="konten-5">
+            <div class="box"></div>
+            <h1>Our Parts Partner</h1>
+            <div class="isi-konten-5">
+                <div class="media media-1"></div>
+                <div class="media media-2"></div>
+                <div class="media media-3"></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="social">
+                <a href=""><i data-feather="instagram"></i></a>
+                <a href=""><i data-feather="twitter"></i></a>
+                <a href=""><i data-feather="facebook"></i></a>
+            </div>
+
+            <div class="credit">Created by <span>Dimas Indra Jaya & Ahimsyah
+                    Firziawan </span>. |
+                &copy; 2023.</div>
+        </footer>
+
+        <!-- Script -->
+        <script>feather.replace()</script>
+        <script src="/script/header-1.js"></script>
+        <script
+            src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+    </body>
 </html>

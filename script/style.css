@@ -1,16 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-.wrapper {
-  max-width: 1140px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-*,
-*:before,
-*:after {
+* {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 a {
@@ -18,58 +10,8 @@ a {
   color: #222;
 }
 
-html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 body {
   font-family: "Roboto", sans-serif;
-}
-
-.sr-only {
-  position: absolute;
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-}
-
-.button {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  color: #fff;
-  background-color: #2fa0f6;
-  min-width: 120px;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.button svg {
-  display: inline-block;
-  vertical-align: middle;
-  width: 24px;
-  height: 24px;
-  fill: #fff;
-}
-
-.button span {
-  display: none;
-}
-
-@media (min-width: 600px) {
-  .button span {
-    display: initial;
-  }
-}
-
-.button--icon {
-  min-width: initial;
-  padding: 0.5rem;
 }
 
 /* corousel */
@@ -80,17 +22,15 @@ body {
   box-sizing: border-box;
 }
 
-body { font-family: sans-serif; }
-
-.gallery {
-  background: #f61d1d;
+body {
+  font-family: sans-serif;
 }
 
 .gallery-cell {
-  width: 66%;
-  height: 200px;
+  width: 80vh;
+  height: 60vh;
   margin-right: 10px;
-  background: #8C8;
+  background: #8c8;
   counter-increment: gallery-cell;
 }
 
@@ -104,4 +44,348 @@ body { font-family: sans-serif; }
   color: white;
 }
 
+/* Konten Utama */
+.konten-utama {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  padding: 3rem;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff00;
+  border: 1px solid black;
+}
 
+.konten-utama .box {
+  background-image: url(/assets/img/bg/bg.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #8c8;
+  filter: blur(4px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.konten-utama .gallery {
+  margin: 1rem;
+}
+
+/* .bg-konten {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  filter: blur(5px);
+} */
+
+/* Kontent 1 */
+.konten-1 {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 5rem;
+  background-color: #ffffff00;
+  border: 1px solid black;
+}
+
+.konten-1 .box {
+  background-image: url(/assets/img/bg/bg-konten-1.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #8c8;
+  filter: blur(4px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.konten-1 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin: 2rem;
+}
+
+.konten-1 .isi-konten-1 {
+  width: 50%;
+  height: auto;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.konten-1 .isi-konten-1 .konten-1-logo {
+  width: 100%;
+  height: 25vh;
+  background-color: #ffffff;
+  border-bottom: 2px solid black;
+}
+
+.konten-1 .isi-konten-1 .desk-konten-1-logo {
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+/* Konten 2 */
+.konten-2 {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 3rem;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.konten-2 .box {
+  background-image: url(/assets/img/bg/bg-konten-2.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #8c8;
+  filter: blur(4px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.konten-2 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin: 1rem;
+}
+
+.konten-2 .isi-konten-2 {
+  margin: auto;
+  width: 60%;
+}
+
+.konten-2 .isi-konten-2 .gallery {
+  justify-content: center;
+  margin: 2rem;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.konten-2 .isi-konten-2 .gallery .gallery-cell {
+  margin: 1rem;
+  width: 40vh;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+/* Konten 3 */
+.konten-3 {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 5rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  border: 1px solid black;
+}
+
+.konten-3 .box {
+  background-image: url(/assets/img/bg/bg-konten-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  filter: blur(4px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.konten-3 .isi-konten-3 {
+  display: flex;
+  justify-content: space-between;
+  height: 60vh;
+  width: 76vh;
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+}
+
+.konten-3 .isi-konten-3 .media {
+  display: inline-block;
+  height: 100%;
+  width: 37vh;
+  background-color: #8c8;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.konten-3 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin: 1rem;
+  margin: auto;
+}
+
+/* Konten 4 */
+
+.konten-4 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 5rem;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.konten-4 .box {
+  background-image: url(/assets/img/bg/bg-konten-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  filter: blur(4px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.konten-4 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin: auto 3rem;
+}
+
+.konten-4 .isi-konten-4 {
+  display: flex;
+  justify-content: space-between;
+  height: 70vh;
+  width: 92vh;
+  box-sizing: border-box;
+}
+
+.konten-4 .isi-konten-4 .media {
+  display: inline-block;
+  height: 100%;
+  width: 45vh;
+  background-color: #8c8;
+  border: 1px solid black;
+  font-size: 1rem;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+/* Konten 5 */
+
+.konten-5 {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 5rem;
+  border: 1px solid black;
+}
+
+.konten-5 .box {
+  background-image: url(/assets/img/bg/bg-konten-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  filter: blur(4px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.konten-5 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin: 0rem auto 4rem;
+}
+
+.konten-5 .isi-konten-5 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  height: 50vh;
+  width: 150vh;
+  box-sizing: border-box;
+}
+
+.konten-5 .isi-konten-5 .media {
+  display: inline-block;
+  height: 100%;
+  width: 48vh;
+  background-color: #8c8;
+  border: 1px solid black;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 1rem 3rem;
+  color: white;
+}
+
+footer .social {
+  padding: 1rem 0;
+}
+
+footer .social a {
+  color: rgb(255, 255, 255);
+  margin: 1rem;
+}
+
+footer .social a:hover {
+  color: green;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
