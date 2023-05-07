@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 a {
@@ -65,7 +65,7 @@ body {
 }
 
 .konten-utama .box {
-  background-image: url(/assets/img/bg/bg.jpg);
+  background-image: url(/assets/img/bg2/1.png);
 }
 
 .konten-utama:hover .box,
@@ -74,7 +74,7 @@ body {
 .konten-3:hover .box,
 .konten-4:hover .box,
 .konten-5:hover .box {
-  filter: blur(5px) sepia(0%);
+  filter: blur(1.5px) sepia(0%);
 }
 
 .konten-utama .gallery {
@@ -111,7 +111,7 @@ body {
 }
 
 .konten-1 .box {
-  background-image: url(/assets/img/bg/bg-konten-1.jpg);
+  background-image: url(/assets/img/bg2/2.png);
 }
 
 .konten-1 h1 {
@@ -163,7 +163,7 @@ body {
 }
 
 .konten-2 .box {
-  background-image: url(/assets/img/bg/bg-konten-2.jpg);
+  background-image: url(/assets/img/bg2/3.png);
 }
 
 .konten-2 h1 {
@@ -211,7 +211,7 @@ body {
 }
 
 .konten-3 .box {
-  background-image: url(/assets/img/bg/bg-konten-3.jpg);
+  background-image: url(/assets/img/bg2/4.png);
 }
 
 .konten-3 .isi-konten-3 {
@@ -262,7 +262,7 @@ body {
 }
 
 .konten-4 .box {
-  background-image: url(/assets/img/bg/bg-konten-4.jpg);
+  background-image: url(/assets/img/bg2/5.png);
 }
 
 .konten-4 h1 {
@@ -309,7 +309,7 @@ body {
 }
 
 .konten-5 .box {
-  background-image: url(/assets/img/bg/bg-konten-5.jpg);
+  background-image: url(/assets/img/bg2/6.png);
 }
 
 .konten-5 h1 {

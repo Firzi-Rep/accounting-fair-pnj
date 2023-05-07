@@ -394,7 +394,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto; }
+  height: 500px; }
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -8183,7 +8183,7 @@ h1, h2, h3, h4, h5,
   background: #1c2938 !important;
   z-index: 3;
   padding: 10px 10px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   -webkit-box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
   -moz-box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
   box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
