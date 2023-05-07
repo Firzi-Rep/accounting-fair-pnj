@@ -1,0 +1,157 @@
+* {
+  /* border: 1px solid red; */
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+.hero-eia {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../assets/img/bg/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-eia::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 20vh;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(1, 1, 3, 1) 8%,
+    rgba(255, 255, 255, 0) 50%
+  );
+}
+
+.hero-eia .kontent-eia {
+  padding: 1.4rem 7%;
+  max-width: 60rem;
+}
+
+.hero-eia .kontent-eia h1 {
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.hero-eia .kontent-eia p {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  line-height: 1.4;
+  font-weight: 300;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+}
+
+.hero-eia .kontent-eia .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1vh 2vh;
+  background-color: rgb(111, 185, 0);
+  border-radius: 0.5rem;
+  border: 0.5px solid black;
+  box-shadow: 10px 10px 10px -5px rgb(0, 0, 0);
+  transition: 1s;
+}
+
+.hero-eia .kontent-eia .cta a {
+  font-family: "poppins", sans-serif;
+  font-size: 1.4rem;
+  text-shadow: 0px 0px 10px black;
+  color: white;
+}
+
+.hero-eia .kontent-eia .cta:hover {
+  background-color: #20f200;
+  scale: 1.1;
+}
+
+/* Konten Eia 1 */
+.konten-eia-1 {
+  width: 100%;
+  height: auto;
+  background-image: url(/assets/img/bgPatren/bgPatren1.png);
+  box-sizing: border-box;
+  padding: 1rem 0;
+}
+
+.konten-eia-1 .isi-konten-eia-1 {
+  max-width: 120vh;
+  height: auto;
+  margin: auto;
+}
+
+.konten-eia-1 .isi-konten-eia-1 .konten-1-eia,
+.konten-eia-1 .isi-konten-eia-1 .konten-2-eia {
+  width: 100%;
+  height: auto;
+  padding: 1rem 1rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+  margin: 3rem;
+  border: 1px solid black;
+}
+
+.konten-eia-1 .isi-konten-eia-1 .konten-1-eia h2,
+.konten-eia-1 .isi-konten-eia-1 .konten-2-eia h2 {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.konten-eia-1 .isi-konten-eia-1 .konten-1-eia p,
+.konten-eia-1 .isi-konten-eia-1 .konten-2-eia p {
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.konten-eia-2 {
+  width: 100%;
+  height: auto;
+  background-image: url(/assets/img/bgPatren/bgPatern2.webp);
+  box-sizing: border-box;
+  padding: 2rem 0;
+}
+
+.konten-eia-2 .isi-konten-eia-2 {
+  max-width: 120vh;
+  height: auto;
+  margin: auto;
+}
+
+.konten-eia-2 .isi-konten-eia-2 h2 {
+  color: white;
+  text-shadow: 0px 0px 10px black;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.konten-eia-2 .isi-konten-eia-2 button {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  margin-bottom: 1rem;
+  transition: 0.6s;
+}
+
+.konten-eia-2 .isi-konten-eia-2 button:hover {
+  background-color: #20f200;
+}
+.konten-eia-2 .isi-konten-eia-2 button h5 {
+  font-weight: bold;
+  line-height: 2.5rem;
+}
