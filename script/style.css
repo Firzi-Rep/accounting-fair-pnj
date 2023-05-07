@@ -4,7 +4,6 @@
   box-sizing: border-box;
   outline: none;
   text-decoration: none;
-  /* border: 1px solid red; */
 }
 
 html {
@@ -253,52 +252,52 @@ body {
   text-shadow: 0px 0px 10px black;
 }
 
-/* Konten 4 */
+/* Konten 4 kontak us*/
 
 .konten-4 {
   display: flex;
-  position: relative;
   flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
+  justify-content: space-around;
   width: 100%;
   height: auto;
   box-sizing: border-box;
-  padding: 5rem;
-  border: 1px solid black;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.konten-4 .box {
-  background-image: url(/assets/img/bg2/5.png);
+  padding: 5rem 0;
+  border-bottom: 1px solid black;
+  background-image: url(/assets/img/bgPatren/bgPatren1.png);
+  box-shadow: 0px 0px 10px 5px black;
 }
 
 .konten-4 h1 {
   display: inline-block;
+  height: auto;
+  width: 60vh;
+  margin: auto;
   font-size: 3rem;
   font-weight: bold;
   font-variant: small-caps;
-  margin: auto 3rem;
-  color: white;
-  text-shadow: 0px 0px 10px black;
+  color: #f4eea9;
+  text-shadow: 2px 2px 1px rgb(0, 0, 0), 0px 0px 10px rgb(0, 0, 0);
+  border-bottom: 3px solid #f4eea9;
+  box-shadow: 0px 5px 5px -5px black;
 }
 
 .konten-4 .isi-konten-4 {
   display: flex;
-  justify-content: space-between;
+  margin: auto auto;
   flex-wrap: wrap;
   height: auto;
-  width: 92vh;
+  width: 90vh;
   box-sizing: border-box;
 }
 
 .konten-4 .isi-konten-4 .media {
-  display: inline-block;
-  height: 70vh;
-  width: 45vh;
-  background-color: rgba(255, 255, 255, 0.6);
+  display: block;
+  height: auto;
+  max-width: 40vh;
   font-size: 1rem;
   box-sizing: border-box;
-  padding: 1rem;
+  padding: 0 1rem;
   margin: 1rem auto;
 }
 
@@ -355,7 +354,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 5rem;
+  height: auto;
   background-color: #1c2938;
   text-align: center;
   align-items: center;
@@ -385,4 +384,29 @@ body {
 .credit a {
   color: rgb(255, 255, 255);
   font-weight: 700;
+}
+
+@media screen and (max-width: 700px) {
+  * {
+    font-size: 85%;
+  }
+
+  p {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer-konten {
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .social {
+    margin: auto;
+  }
+
+  .credit {
+    margin: 1rem auto;
+  }
 }
