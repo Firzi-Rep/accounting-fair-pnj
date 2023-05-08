@@ -133,6 +133,12 @@
   .konten-oapm-1 {
     padding: 1rem 1rem;
   }
+
+  /* Konten 1 EIA */
+  .konten-eia-1 .isi-konten-eia-1 .konten-1-eia,
+  .konten-eia-1 .isi-konten-eia-1 .konten-2-eia {
+    margin: 3rem 2rem;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -148,5 +154,11 @@
   .konten-oapm-1 .isi-konten-oapm-1 .konten-1-oapm p,
   .konten-oapm-1 .isi-konten-oapm-1 .konten-2-oapm p {
     font-size: 0.6rem;
+  }
+
+  /* Konten 1 EIA */
+  .konten-eia-1 .isi-konten-eia-1 .konten-1-eia,
+  .konten-eia-1 .isi-konten-eia-1 .konten-2-eia {
+    margin: 3rem 1rem;
   }
 }
