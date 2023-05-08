@@ -15,7 +15,7 @@
   height: auto;
   background-image: url(/assets/img/bgPatren/bgPatren1.png);
   box-sizing: border-box;
-  padding: 1rem 1rem;
+  padding: 1rem 3rem;
 }
 
 .konten-oapm-1 .isi-konten-oapm-1 {
@@ -42,12 +42,16 @@
   font-family: "poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px black, 0px 0px 10px black;
 }
 
 .konten-oapm-1 .isi-konten-oapm-1 .konten-1-oapm p,
 .konten-oapm-1 .isi-konten-oapm-1 .konten-2-oapm p {
   margin-bottom: 2rem;
   text-align: justify;
+  font-size: 1rem;
 }
 
 /* Konten opam 2 */

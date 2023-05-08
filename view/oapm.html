@@ -14,6 +14,7 @@
         <!-- Style css -->
         <link rel="stylesheet" href="../script/style.css">
         <link rel="stylesheet" href="../script/styleOAPM.css">
+        <link rel="stylesheet" href="../script/mediaQueary.css">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link
@@ -26,6 +27,13 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
             rel="stylesheet"/>
         <link rel="stylesheet" href="/library/style.css">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alice&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&family=Special+Elite&display=swap"
+            rel="stylesheet">
     </head>
     <body class="bg-dark">
 
@@ -33,10 +41,10 @@
         <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light"
             id="ftco-navbar">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="/assets/logo/pnj.png" alt="Logo" width="60"
-                        height="50">
-                    afpnj 2023
+                <a class="navbar-brand" href="../index.html">
+                    <img src="/assets/logo/logoaf2023.png" alt="Logo" width="60"
+                        height="57">
+                    Accounting Fair 2023
                 </a>
                 <button class="navbar-toggler" type="button"
                     data-toggle="collapse" data-target="#ftco-nav"
@@ -50,57 +58,73 @@
                                 class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="/view/about.html"
                                 class="nav-link">About Us</a></li>
-                        <li class="nav-item dropdown position-static">
+                        <li class="nav-item position-static">
+                            <!-- dropdown start -->
                             <a class="nav-link dropdown-toggle" href="#"
                                 id="dropdown04" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Our
-                                Event</a>
+                                aria-haspopup="true" aria-expanded="false">
+                                Our Events
+                            </a>
                             <div class="dropdown-menu p-4"
                                 aria-labelledby="dropdown04">
                                 <div class="row">
                                     <div class="col-md-3">
                                         <a class="dropdown-item"
                                             href="/view/oapm.html">OAPM</a>
-                                        <a class="dropdown-item" href="#">EIA</a>
+                                        <a class="dropdown-item"
+                                            href="/view/eia.html">EIA</a>
                                         <a class="dropdown-item" href="#">ASC</a>
                                         <a class="dropdown-item" href="#">Bazaar</a>
                                     </div>
-                                    <div class="col-md-2 d-none d-md-block">
-                                        <a href="#" class="img"
-                                            style="background-image:
-                                            url(/assets/logo/headeroapm.png);"></a>
-                                        <div class="text">
-                                            <h3><a href="#">Pendaftaran OAPM</a></h3>
-                                            <span></span>
+
+                                    <div class="card text-center col-md-2 d-none
+                                        d-md-block" style="width: 18rem;">
+                                        <img src="/assets/logo/logoaf2023.png"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <div class="text">
+                                                <h3><a href="#">OAPM</a></h3>
+                                                <!-- <span>Pendaftaran OAPM</span> -->
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2 d-none d-md-block">
-                                        <a href="#" class="img"
-                                            style="background-image:
-                                            url(images/img-2.jpg);"></a>
-                                        <div class="text">
-                                            <h3><a href="#">EIA</a></h3>
-                                            <span></span>
+
+                                    <div class="card text-center col-md-2 d-none
+                                        d-md-block" style="width: 18rem;">
+                                        <img src="/assets/logo/EIA.png"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <div class="text">
+                                                <h3><a href="#">EIA</a></h3>
+                                                <!-- <span>Pendaftaran OAPM</span> -->
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2 d-none d-md-block">
-                                        <a href="#" class="img"
-                                            style="background-image:
-                                            url(images/img-3.jpg);"></a>
-                                        <div class="text">
-                                            <h3><a href="#">ASC</a></h3>
-                                            <span>isi</span>
+
+                                    <div class="card text-center col-md-2 d-none
+                                        d-md-block" style="width: 18rem;">
+                                        <img src="/assets/logo/asc.png"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <div class="text">
+                                                <h3><a href="#">ASC</a></h3>
+                                                <!-- <span>Pendaftaran OAPM</span> -->
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2 d-none d-md-block">
-                                        <a href="#" class="img"
-                                            style="background-image:
-                                            url(images/img-3.jpg);"></a>
-                                        <div class="text">
-                                            <h3><a href="#">Bazaar</a></h3>
-                                            <span>isi</span>
+
+                                    <div class="card text-center col-md-2 d-none
+                                        d-md-block" style="width: 18rem;">
+                                        <img src="/assets/logo/bazar.png"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <div class="text">
+                                                <h3><a href="#">BAZAR</a></h3>
+                                                <!-- <span>isi</span> -->
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </li>

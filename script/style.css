@@ -4,6 +4,7 @@
   box-sizing: border-box;
   outline: none;
   text-decoration: none;
+  border: 1px solid red;
 }
 
 html {
@@ -18,7 +19,7 @@ a {
 body {
   /* font-family: "Roboto", sans-serif; */
   font-family: "poppins", sans-serif;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 .navbar {
@@ -60,7 +61,7 @@ body {
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #8c8;
+  background-color: rgba(136, 204, 136, 0);
   filter: blur(5px) sepia(100%);
   top: 0;
   left: 0;
@@ -384,29 +385,4 @@ body {
 .credit a {
   color: rgb(255, 255, 255);
   font-weight: 700;
-}
-
-@media screen and (max-width: 700px) {
-  * {
-    font-size: 85%;
-  }
-
-  p {
-    font-size: 100%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .footer-konten {
-    flex-wrap: wrap;
-    margin: auto;
-  }
-
-  .social {
-    margin: auto;
-  }
-
-  .credit {
-    margin: 1rem auto;
-  }
 }

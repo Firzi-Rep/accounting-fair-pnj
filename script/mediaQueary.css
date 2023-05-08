@@ -1,0 +1,152 @@
+@media screen and (max-width: 1000px) {
+  * {
+    font-size: 85%;
+  }
+
+  p {
+    font-size: 95%;
+  }
+
+  /* Galery home 1*/
+
+  .gallery-cell {
+    width: 70vh;
+  }
+  .konten-utama .gallery {
+    height: 50vh;
+  }
+
+  .konten-utama .gallery .gallery-cell {
+    height: 50vh;
+  }
+
+  /* Konten 1 home */
+
+  /* Konten 2 */
+  .konten-2 {
+    padding: 3rem 2rem;
+  }
+
+  .konten-2 .isi-konten-2 {
+    width: auto;
+  }
+
+  /* Konten 3 */
+  .konten-3 {
+    padding: 4rem 0;
+  }
+
+  .konten-3 .isi-konten-3 .media {
+    width: 30vh;
+    height: 35vh;
+  }
+
+  /* Kontent 4 */
+  .konten-4 .isi-konten-4 .media {
+    max-width: 30vh;
+  }
+
+  /* Konten 5 */
+  .konten-5 {
+    padding: 3rem 0;
+  }
+
+  .konten-5 .isi-konten-5 .media {
+    max-width: 30vh;
+    height: 35vh;
+  }
+
+  /* Footer home */
+  .footer-konten {
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .social {
+    margin: auto;
+  }
+
+  .credit {
+    margin: 1rem auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 65%;
+  }
+
+  p {
+    font-size: 65%;
+  }
+
+  /* Galery home 1*/
+
+  .gallery-cell {
+    width: 70vh;
+  }
+  .konten-utama .gallery {
+    height: 35vh;
+  }
+
+  .konten-utama .gallery .gallery-cell {
+    height: 35vh;
+  }
+
+  /* Konten 1 */
+  .konten-1 {
+    padding: 4rem 1rem;
+  }
+
+  /* Konten 2 */
+  .konten-2 {
+    padding: 3rem 1rem;
+  }
+
+  .konten-2 .isi-konten-2 {
+    width: auto;
+  }
+
+  /* Konten 3 */
+  .konten-3 {
+    padding: 4rem 0;
+  }
+
+  .konten-3 .isi-konten-3 .media {
+    width: 30vh;
+    height: 35vh;
+  }
+
+  /* Konten 4 */
+  .konten-4 .isi-konten-4 .media {
+    max-width: 40vh;
+  }
+
+  /* Konten 5 */
+
+  .konten-5 .isi-konten-5 .media {
+    max-width: 35vh;
+    height: 30vh;
+  }
+
+  /* Konten 1 oapm */
+  .konten-oapm-1 {
+    padding: 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  * {
+    font-size: 65%;
+  }
+
+  p {
+    font-size: 65%;
+  }
+
+  /* Konten 1 oapm  */
+  .konten-oapm-1 .isi-konten-oapm-1 .konten-1-oapm p,
+  .konten-oapm-1 .isi-konten-oapm-1 .konten-2-oapm p {
+    font-size: 0.6rem;
+  }
+}
