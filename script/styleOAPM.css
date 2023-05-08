@@ -58,7 +58,7 @@
 .konten-oapm-2 {
   width: 100%;
   box-sizing: border-box;
-  padding: 2rem;
+  padding: 2rem 2rem 4rem 2rem;
   background-image: url(../assets/img/bg2/3.png);
   background-size: cover;
   background-repeat: no-repeat;
