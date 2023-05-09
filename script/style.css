@@ -22,6 +22,21 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+.header-home-h1 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 1px black, 0px 0px 10px black;
+  text-align: center;
+}
+
+.header-home-p {
+  color: white;
+  font-size: 1rem;
+  text-shadow: 2px 2px 1px black, 0px 0px 10px black;
+  text-align: center;
+}
+
 .navbar {
   opacity: 1;
 }
