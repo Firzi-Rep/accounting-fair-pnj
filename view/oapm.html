@@ -34,6 +34,15 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Alice&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&family=Special+Elite&display=swap"
             rel="stylesheet">
+
+        <!-- Animate slide scroll -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            />
+
+        <!-- Animate scroll -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body class="bg-dark">
 
@@ -140,7 +149,7 @@
             url('/assets/logo/headeroapm.png');
             ">
         </div> -->
-        <div class="jumbotron-oapm">
+        <div class="jumbotron-oapm animate__animated animate__fadeIn">
             <img src="../assets/logo/headeroapm.png" alt="">
         </div>
         <!-- Jumbotron -->
@@ -161,8 +170,12 @@
         <div class="konten-oapm-1">
             <div class="isi-konten-oapm-1">
                 <div class="konten-1-oapm">
-                    <h2>Olimpiade Akuntansi dan Pasar Modal</h2>
-                    <p>Olimpiade Akuntansi dan Pasar Modal (OAPM) merupakan
+                    <h2 class="animate__animated animate__slideInUp
+                        animate__fadeIn">Olimpiade
+                        Akuntansi dan Pasar Modal</h2>
+                    <p class="animate__animated animate__fadeInUp
+                        animate__fadeIn">Olimpiade
+                        Akuntansi dan Pasar Modal (OAPM) merupakan
                         suatu konten dari acara terbesar di Jurusan Akuntansi
                         Politeknik Negeri Jakarta yaitu Accounting Fair 2023.
                         OAPM diikuti oleh mahasiswa/i jurusan Akuntansi dan
@@ -170,7 +183,9 @@
                         kontribusi terhadap pengembangan pengetahuan serta
                         keterampilan mahasiswa/i Akuntansi.</p>
 
-                    <p>Melalui perlombaan ini diharapkan dapat dijadikan sebagai
+                    <p class="animate__animated animate__fadeInUp
+                        animate__fadeIn">Melalui perlombaan ini diharapkan dapat
+                        dijadikan sebagai
                         sarana berkompetisi yang sehat antar mahasiswa untuk
                         meningkatkan kualitas dan kemampuannya dalam memecahkan
                         masalah-masalah akuntansi secara konsep dan teknis
@@ -191,7 +206,7 @@
         <!-- Konten 2 start -->
         <div class="konten-oapm-2">
             <div class="isi-konten-oapm-2">
-                <div class="card-oapm">
+                <div class="card-oapm" data-aos="flip-up">
                     <h2>Pendaftaran OAPM</h2>
                     <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLScmEkKAGn78ATu7BLx12fw0zKsDTiaAWAEOq8GvssNAoawicQ/viewform">
@@ -199,7 +214,7 @@
                     </a>
 
                 </div>
-                <div class="card-oapm">
+                <div class="card-oapm" data-aos="flip-up">
                     <h2>Registrasi Ulang OAPM</h2>
                     <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLSdHXm8lDPqwPzjNV2OVaZTsxSHolxIlGjH6EIeDZXG3NYxCYQ/viewform">
@@ -207,14 +222,14 @@
                     </a>
 
                 </div>
-                <div class="card-oapm">
+                <div class="card-oapm" data-aos="flip-up">
                     <h2>Booklet Lomba OAPM</h2>
                     <a href="http://bit.ly/BOOKLETOAPM2023">
                         <button><h5>Read Here!</h5></button>
                     </a>
                     
                 </div>
-                <div class="card-oapm" style="width: 70vh;">
+                <div class="card-oapm" data-aos="flip-up" style="width: 70vh;">
                     <h2>Pendaftaran Webinar OAPM</h2>
                     <button><h5>Join Us!</h5></button>
                 </div>
@@ -306,6 +321,12 @@
         <!-- footer end -->
 
         <!-- Script -->
+        <!-- Animate scroll -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!-- Icon -->
         <script>feather.replace()</script>
         <script
             type="text/javascript"
