@@ -10,21 +10,17 @@
         <script src="https://unpkg.com/feather-icons"></script>
         <link rel="icon" href="assets/logo/logoaf2023.png">
 
-        <!-- Style -->
-        <link rel="stylesheet" href="/script/reset.min.css">
-        <link rel="stylesheet" href="/script/style.css">
-        <link rel="stylesheet" href="/script/header-1.css">
-        <link rel="stylesheet" href="/script/navbar.css">
-        <link rel="stylesheet" href="/script/mediaQueary.css">
-        <link rel="stylesheet"
-            href="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
-        <!-- FrameWrok -->
-        <link rel="stylesheet" href="/library/bootstrap.css">
-        <link rel="stylesheet" href="library/bootstrap.min.css">
+        <!-- Style css -->
+        <link rel="stylesheet" href="../script/style.css">
+        <link rel="stylesheet" href="../script/styleOAPM.css">
+        <link rel="stylesheet" href="../script/mediaQueary.css">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"/>
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
             rel="stylesheet"/>
         <link
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -37,6 +33,15 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Alice&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&family=Special+Elite&display=swap"
             rel="stylesheet">
+
+        <!-- Animate slide scroll -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            />
+
+        <!-- Animate scroll -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body class="bg-dark">
 
@@ -138,37 +143,31 @@
         <!-- nav end -->
 
         <!-- Jumbotron -->
-        <div class="p-5 mb-4 bg-body-secondary">       
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3 text-center text-bg-success">
             <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold text-center">ABOUT US</h1>
-                <p class="text-center"></p>
+                <h1 class="display-5 fw-bold header-home-h1">ABOUT US</h1>
             </div>
         </div>
-        <!-- Jumbotron -->
 
         <!-- konten start -->
-        <div class="p-5 mb-4 bg-image" style="background-image:
-            url('/assets/img/bg2/2.png');
-            height: 550px;
-            ">
-                <img src="/assets/logo/logoaf2023.png" class="rounded mx-auto
-                    d-block" alt="..." style="width: 40vh;">
-                <div class="text-center p-5" style="color: rgb(243, 243, 243);">
-                    <p class="fs-4 header-home-p">Accounting Fair 2023 is an Educative Competitive Event. The 2023
-                        Accounting Fair consists of one pre-event content and 4 main event content, namely Entrepreneur In Action (EIA), Olimpiade Akuntansi dan Pasar Modal (OAPM), Accounting Smart Competition (ASC), and Bazaar.</p>
+        <div class="konten-oapm-1">
+            <div class="isi-konten-oapm-1">
+                <div class="konten-1-oapm">
+                    <h2 data-aos="fade-up"
+                        data-aos-duration="1500">
+                        ACCOUNTING FAIR 2023
+                    </h2>
+                    <p data-aos="fade-up"
+                        data-aos-duration="1500">Accounting Fair 2023 is an Educative Competitive Event. The 2023 Accounting Fair consists of one pre-event content and 4 main event content, namely Entrepreneur In Action (EIA), Olimpiade Akuntansi dan Pasar Modal (OAPM), Accounting Smart Competition (ASC), and Bazaar.</p>
                 </div>
-        </div>
-
-        <div class="p-5 mb-4 text-bg-success bg-image" style="margin-top: 10px; background-image:
-        url('/assets/img/bg2/6.png');
-        height: 550px;">
-            <div class="text-center p-5">
-                <h1 class="h-100">THIS YEAR'S GRAND THEME</h1>
-                <p class="fs-5 p-2 text-body">The Accounting Fair 2023 has chosen the theme of Generation Z with the concept of Nature. This decision is based on a natural phenomenon that has been discussed by the general public, particularly among the younger generation, commonly referred to as Gen Z.
-
-                    It is hoped that the young generation will continue to monitor and preserve nature for a brighter future, in line with the AF tagline for this year: "Building a better future with the young generation."
-                    
-                    The design concept for Accounting Fair 2023 consists of representations of rural areas, forests, urban areas, and mountainous regions as a symbol of nature.</p>
+                <div class="konten-2-oapm">
+                    <h2 data-aos="fade-up"
+                        data-aos-duration="1500">THIS YEAR'S GRAND THEME</h2>
+                    <p style="text-align: center;" data-aos="fade-up"
+                        data-aos-duration="1500">Explore the universe of
+                        accounting and capital market
+                        through digital technology</p>
+                </div>
             </div>
         </div>
 
@@ -212,7 +211,11 @@
             </div>
         </div>
             <!-- footer end -->
-
+            <!-- Animate scroll -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
             <script>feather.replace()</script>
             <script
             src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
