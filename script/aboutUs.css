@@ -74,7 +74,6 @@
   background-image: url(/assets/img/bgPatren/bgPaternAboutIsi.png);
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid red;
   box-sizing: border-box;
   padding: 3rem 1rem;
   border-radius: 15px;
@@ -94,7 +93,6 @@
 
 .konten-about .konten-about-isi .konten-about-p {
   display: block;
-  border: 1px solid red;
   margin: 5rem 1rem;
   text-align: justify;
 }
