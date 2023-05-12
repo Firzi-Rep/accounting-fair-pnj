@@ -56,7 +56,6 @@ body {
 
 /* Konten Utama */
 .konten-utama {
-  display: block;
   position: relative;
   box-sizing: border-box;
   text-align: center;
@@ -65,7 +64,6 @@ body {
   width: 100%;
   height: auto;
   background-color: #ffffff00;
-  border: 1px solid black;
 }
 
 .konten-utama .box,
@@ -232,6 +230,7 @@ body {
   padding-left: 8rem;
   padding-right: 8rem;
   border: 1px solid black;
+  overflow: hidden;
 }
 
 .konten-3 .box {
@@ -330,6 +329,7 @@ body {
   height: auto;
   padding: 5rem;
   border: 1px solid black;
+  overflow: hidden;
 }
 
 .konten-5 .box {

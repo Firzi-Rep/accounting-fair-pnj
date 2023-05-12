@@ -69,6 +69,16 @@
   .credit {
     margin: 1rem auto;
   }
+
+  /* About */
+  /* .jumbotron-about {
+    height: 55vh;
+  } */
+
+  .jumbotron-about .jumbotron-about-isi .jumbotron-about-logo img {
+    width: 30vh;
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -139,15 +149,30 @@
   .konten-eia-1 .isi-konten-eia-1 .konten-2-eia {
     margin: 3rem 2rem;
   }
+
+  /* About */
+  /* .jumbotron-about {
+    height: 45vh;
+  } */
+
+  .jumbotron-about .jumbotron-about-isi .jumbotron-about-logo img {
+    width: 20vh;
+    margin-bottom: 1rem;
+  }
+
+  .konten-about .konten-about-isi h2 {
+    font-size: 2rem;
+    padding: 0 2rem;
+  }
 }
 
 @media screen and (max-width: 300px) {
   * {
-    font-size: 65%;
+    font-size: 55%;
   }
 
   p {
-    font-size: 65%;
+    font-size: 55%;
   }
 
   /* Konten 1 oapm  */
@@ -160,5 +185,10 @@
   .konten-eia-1 .isi-konten-eia-1 .konten-1-eia,
   .konten-eia-1 .isi-konten-eia-1 .konten-2-eia {
     margin: 3rem 1rem;
+  }
+
+  /* about us */
+  .jumbotron-about .jumbotron-about-isi h2 {
+    padding: 0;
   }
 }
