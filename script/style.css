@@ -243,19 +243,20 @@ body {
   flex-wrap: wrap;
   margin: auto;
   height: 100%;
-  width: 76vh;
+  width: 100vh;
   /* border: 1px solid black; */
   box-sizing: border-box;
 }
 
-.konten-3 .isi-konten-3 .media {
-  display: block;
-  margin: 1rem auto;
-  height: 60vh;
-  width: 37vh;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: 1px solid black;
-  border-radius: 10px;
+.konten-3 .isi-konten-3 .media-sm {
+  margin: auto;
+}
+
+.konten-3 .isi-konten-3 .media-sm img {
+  display: inline;
+  max-width: 40vh;
+  height: auto;
+  margin: 1rem;
 }
 
 .konten-3 h1 {
