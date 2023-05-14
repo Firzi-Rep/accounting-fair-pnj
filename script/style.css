@@ -375,7 +375,7 @@ body {
 .konten-5 .isi-konten-5 .media .bg-media-partner {
   display: block;
   position: absolute;
-  background-image: linear-gradient(red, blue, yellow);
+  background-image: linear-gradient(red, blue, yellow, green);
   width: 150%;
   height: 250%;
   top: -50%;
