@@ -48,13 +48,13 @@
 
   /* Konten 5 */
   .konten-5 {
-    padding: 3rem 0;
+    padding: 3rem 1rem;
   }
 
-  .konten-5 .isi-konten-5 .media {
+  /* .konten-5 .isi-konten-5 .media {
     max-width: 30vh;
     height: 35vh;
-  }
+  } */
 
   /* Footer home */
   .footer-konten {
@@ -134,10 +134,10 @@
 
   /* Konten 5 */
 
-  .konten-5 .isi-konten-5 .media {
+  /* .konten-5 .isi-konten-5 .media {
     max-width: 35vh;
     height: 30vh;
-  }
+  } */
 
   /* Konten 1 oapm */
   .konten-oapm-1 {
@@ -190,5 +190,10 @@
   /* about us */
   .jumbotron-about .jumbotron-about-isi h2 {
     padding: 0;
+  }
+
+  /* Konten 5 home */
+  .konten-5 .isi-konten-5 .media {
+    height: 20vh;
   }
 }
