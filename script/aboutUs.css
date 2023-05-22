@@ -2,10 +2,23 @@
   position: relative;
   width: 100%;
   height: auto;
+  background-image: url(../assets/img/bg2/2-max.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 1rem;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.4);
 }
+
+/* .jumbotron-about {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.4);
+} */
 
 .jumbotron-about .jumbotron-about-bg img {
   position: absolute;
@@ -59,7 +72,7 @@
   text-align: center;
   padding: 5rem 1rem;
   box-sizing: border-box;
-  box-shadow: inset 0px 0px 30px 10px black;
+  /* box-shadow: inset 0px 0px 30px 10px black; */
   background-image: url(/assets/img/bgPatren/bgPatrenX.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,7 +90,7 @@
   box-sizing: border-box;
   padding: 3rem 1rem;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px black, inset 0px 0px 20px 10px black;
+  box-shadow: 5px 5px 10px black, inset 0px 0px 20px 20px black;
 }
 
 .konten-about .konten-about-isi h2 {
@@ -101,8 +114,4 @@
   font-size: 1rem;
   color: white;
   text-shadow: 2px 1px 1px black, 0px 0px 10px rgb(0, 0, 0);
-}
-
-.konten-4 {
-  box-shadow: inset 0px 0px 50px 10px black;
 }
