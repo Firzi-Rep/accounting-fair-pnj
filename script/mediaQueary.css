@@ -79,6 +79,11 @@
     width: 30vh;
     margin-bottom: 1rem;
   }
+
+  /* EIA */
+  .hero-eia {
+    height: 80vh;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -150,6 +155,10 @@
     margin: 3rem 2rem;
   }
 
+  .hero-eia {
+    height: 60vh;
+  }
+
   /* About */
   /* .jumbotron-about {
     height: 45vh;
@@ -199,13 +208,13 @@
 }
 
 @media screen and (min-width: 426px) {
-  .textcr2{
+  .textcr2 {
     padding-top: 30vh;
   }
 }
 
 @media screen and (max-width: 426px) {
-  .textcr2{
+  .textcr2 {
     padding-top: 20vh;
   }
 }
